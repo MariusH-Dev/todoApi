@@ -39,15 +39,15 @@ TodoAPI/
 │   ├── UserController.cs  # Verwaltet Benutzer
 │
 ├── Models/
-│   ├── TaskItem.cs  # Aufgabenmodell
-│   ├── User.cs      # Benutzermodell
+│   ├── TaskItem.cs        # Aufgabenmodell
+│   ├── User.cs            # Benutzermodell
 │
 ├── Data/
-│   ├── TodoContext.cs  # Datenbankkontext für Entity Framework
+│   ├── TodoContext.cs     # Datenbankkontext für Entity Framework
 │
-├── Program.cs         # Hauptkonfiguration der API
-├── README.md         # Projektdokumentation
-└── TodoAPI.csproj    # Projektkonfiguration
+├── Program.cs             # Hauptkonfiguration der API
+├── README.md              # Projektdokumentation
+└── TodoAPI.csproj         # Projektkonfiguration
 ```
 
 ---
@@ -131,7 +131,7 @@ Hier kannst du API-Endpunkte direkt aus dem Browser testen.
 #### **Antwort (201 Created)**
 ```json
 {
-  "id": "f13b5fc7-4567-432e-923a-1c76ff7456a6",
+  "id": "1",
   "title": "Einkaufen",
   "description": "Milch, Brot, Eier",
   "priority": 2,
